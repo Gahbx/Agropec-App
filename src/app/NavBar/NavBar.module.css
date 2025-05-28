@@ -1,0 +1,18 @@
+.navbar{
+    
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    width: 21.12rem;
+    height: 3rem; 
+    background-color: var(--yellow-500);
+    border-radius: 26px;
+    gap: 7%;
+}
+.img{
+   margin: auto;
+    height: 2rem;
+    width: 2rem;
+}
+
+
