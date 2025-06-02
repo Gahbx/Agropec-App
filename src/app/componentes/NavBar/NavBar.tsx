@@ -10,25 +10,26 @@ export default function NavBar(){
         <section className={styles.navbar}>
 
         
-                <Link href="/Home">
+                <Link href="/Home" className={styles.link}>
                 <img className={styles.img}
                  src="Home.svg"
                   alt="Home" /></Link> 
             
             
     
-            <Link href="/Estandes"> <img className={styles.img}
+            <Link href="/Estandes" className={styles.link}>
+             <img className={styles.img}
              src="Estandes.svg"
               alt="Estandes" />
                </Link> 
                
-               <Link href="/Mapa">
+               <Link href="/Mapa"  className={styles.link}>
                 <img  src="Mapa.svg"
                   alt="Mapa Interativo"
                    className={styles.img} />
                </Link>   
             
-               <Link href="/Estandes">   
+               <Link href="/Estandes"  className={styles.link}>   
                <img  src="Notificacao.svg"
                  alt="Notificações"
                   className={styles.img} />

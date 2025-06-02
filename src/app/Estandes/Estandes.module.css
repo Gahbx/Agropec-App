@@ -1,70 +1,72 @@
 .pageContainer {
   
-    min-height: 100vh;
-    padding: 2rem 0;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-  }
+  min-height: 100vh;
+  padding: 2rem 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.title {
+  text-align: center;
+  font-size: 2.2rem;
+  margin-bottom: 2rem;
+  font-weight: 700;
+  letter-spacing: 1px;
+}
+
+.standsList {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  align-items: center;
+  width: 100%;
+}
+
+.standCard {
+  width: 90vw;
+  max-width: 400px;
+  min-height: 160px;
+  border-radius: 16px;
+
+  display: flex;
+  overflow: hidden;
+  position: relative;
+  background: #fff;
+  transition: transform 0.15s, box-shadow 0.15s;
+}
+
+.standCard:hover {
+  transform: translateY(-4px) scale(1.02);
+  box-shadow: 0 6px 24px #0002;
+}
+
+.standContent {
+  opacity:80%;
+  padding: 1rem 0.8rem;
+  width: 100%;
+  display: flex;
+  gap: 1rem;
+}
+
+.standLogo {
+  width: 48px;
+  height: 48px;
+  object-fit: contain;
+  border-radius: 10px;
+  margin-right: 1rem;
+
+  border: 2px ;
+}
+
+.standContent strong {
+  font-size: 1.2rem;
+  font-weight: 600;
+  letter-spacing: 0.5px;
+}
+
+.standContent p {
+  font-size: 1rem;
+  margin: 0.3rem 0 0 0;
   
-  .title {
-    
-    text-align: center;
-    font-size: 2.2rem;
-    margin-bottom: 2rem;
-  
-  }
-  
-  .standsList {
-    display: flex;
-    flex-direction: column;
-    gap: 2rem;
-    align-items: center;
-    width: 100%;
-  }
-  
-  .standCard {
-    background-image:  url('../../../public/image.svg');
-    width: 25rem;
-    max-width: 25rem;
-    min-height: 160px;
-    border-radius: 1rem;
-    display: flex;
-    transition: transform 0.15s, box-shadow 0.15s;
-  }
-  
-  .standCard:hover {
-    transform: translateY(-4px) scale(1.02);
-   
-  }
-  
-  .standContent {
-  
-    
-    padding: 1.2rem 1rem;
-    width: 100%;
-    display: flex;
-    align-items: flex-start;
-    gap: 1rem;
-  }
-  
-  .standLogo {
-    width: 48px;
-    height: 48px;
-    object-fit: contain;
-   
-    border-radius: 10px;
-    margin-right: 1rem;
-  
-   
-  }
-  
-  .standContent strong {
-    font-size: 1.2rem;
-    font-weight: 600;
-    letter-spacing: 0.5px;
-  }
-  
-  .standContent p {
-    font-size: 1rem;
-  }
+}
