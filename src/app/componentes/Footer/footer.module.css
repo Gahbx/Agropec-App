@@ -1,0 +1,32 @@
+.footer{
+    background-color: var(--green-700);
+    width: 100%;
+    height: 5.9rem;
+    color: var(--white);
+    display: flex;
+    
+    
+}
+.left{
+    
+    width: 70%;
+    justify-content: center;
+    margin: 0.85rem;
+    display: flex;
+    flex-direction: column;
+    
+}
+.titulo{
+    margin-bottom: 1rem;
+    font-size: 0.85rem; 
+}
+.texto{
+    font-size: 0.65rem;
+}
+.right{
+    margin-right: 1rem;
+    margin: auto;
+}
+.logo{
+    width: 4.5rem;
+}
