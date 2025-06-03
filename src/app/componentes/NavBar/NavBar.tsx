@@ -17,19 +17,19 @@ export default function NavBar(){
             
             
     
-            <Link href="/Estandes" className={styles.link}>
+            <Link href="/Stands" className={styles.link}>
              <img className={styles.img}
              src="Estandes.svg"
               alt="Estandes" />
                </Link> 
                
-               <Link href="/Mapa"  className={styles.link}>
+               <Link href="/Map"  className={styles.link}>
                 <img  src="Mapa.svg"
                   alt="Mapa Interativo"
                    className={styles.img} />
                </Link>   
             
-               <Link href="/Estandes"  className={styles.link}>   
+               <Link href="/Notification"  className={styles.link}  >   
                <img  src="Notificacao.svg"
                  alt="Notificações"
                   className={styles.img} />

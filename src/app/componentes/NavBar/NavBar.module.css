@@ -25,5 +25,11 @@
     height: 2rem;
     width: 2rem;
 }
-
+.active {
+    background: #FFD600; /* amarelo mostarda */
+    color: #333;
+    border-radius: 8px;
+    padding: 0.5em 1em;
+    /* outros estilos para destacar */
+  }
 

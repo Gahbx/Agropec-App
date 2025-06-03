@@ -5,7 +5,7 @@ import Header from "./componentes/header/Header";
 import NavBar from "./componentes/NavBar/NavBar";
 import Footer from "./componentes/Footer/Footer";
 import Home from "./Home/page";
-import Estandes from "./Estandes/page";
+import Estandes from "./Stands/page";
 
 
 
