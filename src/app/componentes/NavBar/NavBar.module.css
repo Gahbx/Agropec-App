@@ -14,7 +14,7 @@
 .link {
     display: flex;
     margin: auto;
-    width: 3rem;
+    width: 5.5rem;
     height: 3rem;
     
 }
@@ -26,10 +26,8 @@
     width: 2rem;
 }
 .active {
-    background: #FFD600; /* amarelo mostarda */
-    color: #333;
-    border-radius: 8px;
-    padding: 0.5em 1em;
-    /* outros estilos para destacar */
+    background: #f89602; 
+    border-radius: 2rem;
+ 
   }
 

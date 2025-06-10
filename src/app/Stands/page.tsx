@@ -26,7 +26,20 @@ export default function Estandes (){
       description: "IMAGEM DE FUNDO DA MARCA OU ESTANDE",
       background: "/NoneFundo.svg",
     },
-    
+    {
+      id: 3,
+      logo: "/NoneLogo.svg",
+      name: "Logo aqui",
+      description: "IMAGEM DE FUNDO DA MARCA OU ESTANDE",
+      background: "/NoneFundo.svg",
+    },
+    {
+      id: 4,
+      logo: "/NoneLogo.svg",
+      name: "Logo aqui",
+      description: "IMAGEM DE FUNDO DA MARCA OU ESTANDE",
+      background: "/NoneFundo.svg",
+    },
   ]);
 
   return(

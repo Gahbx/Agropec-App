@@ -2,34 +2,37 @@
 
 import styles from './NavBar.module.css'
 import Link from 'next/link';
-
+import { usePathname } from 'next/navigation';
  
 export default function NavBar(){ 
  
+    const pathname = usePathname();
+
+
     return(
         <section className={styles.navbar}>
 
         
-                <Link href="/Home" className={styles.link}>
+                <Link href="/Home"   className={`${styles.link} ${pathname === '/Home' ? styles.active : ''}`}>
                 <img className={styles.img}
                  src="Home.svg"
                   alt="Home" /></Link> 
             
             
     
-            <Link href="/Stands" className={styles.link}>
+            <Link href="/Stands" className={`${styles.link} ${pathname === '/Stands' ? styles.active : ''}`}>
              <img className={styles.img}
              src="Estandes.svg"
               alt="Estandes" />
                </Link> 
                
-               <Link href="/Map"  className={styles.link}>
+               <Link href="/Map" className={`${styles.link} ${pathname === '/Map' ? styles.active : ''}`}>
                 <img  src="Mapa.svg"
                   alt="Mapa Interativo"
                    className={styles.img} />
                </Link>   
             
-               <Link href="/Notification"  className={styles.link}  >   
+               <Link href="/Notification"  className={`${styles.link} ${pathname === '/Notification' ? styles.active : ''}`} >   
                <img  src="Notificacao.svg"
                  alt="Notificações"
                   className={styles.img} />

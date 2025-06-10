@@ -4,8 +4,7 @@ import "./globals.css";
 import Header from "./componentes/header/Header";
 import NavBar from "./componentes/NavBar/NavBar";
 import Footer from "./componentes/Footer/Footer";
-import Home from "./Home/page";
-import Estandes from "./Stands/page";
+
 
 
 
@@ -39,11 +38,13 @@ export default function RootLayout({
       <body
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}
       >
+        <div className="page-container">
         <Header/>
         <NavBar/>
          {children}
          
           <Footer/>
+          </div>
       </body>
     </html> 
   );

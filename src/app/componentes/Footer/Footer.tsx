@@ -10,7 +10,7 @@ export default function Footer(){
                 <p className={styles.texto}>ENTRE OUTROS...</p>
             </div>
             <div className={styles.right}>
-            <img className={styles.logo} src="Logo Branca.svg" alt="Logo Branca" /> 
+            <img className={styles.logo} src="AgroLogo.svg" alt="Logo Branca" /> 
             </div>
         </footer>
     )
