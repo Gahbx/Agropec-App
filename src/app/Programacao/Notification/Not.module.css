@@ -1,0 +1,33 @@
+.lista {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+  }
+  .notificacao {
+    display: flex;
+    align-items: flex-start;
+    gap: 1rem;
+    background: #1e3a34;
+    border-radius: 12px;
+    padding: 1rem;
+  }
+  .vermelha .hora {
+    color: #ff3b3b;
+    font-weight: bold;
+  }
+  .amarela .hora {
+    color: #ffd600;
+    font-weight: bold;
+  }
+  .branca .hora {
+    color: #fff;
+    font-weight: bold;
+  }
+  .tituloNot {
+    color: #fff;
+    font-size: 1rem;
+  }
+  .titulo {
+    color: #fff;
+    margin-bottom: 1rem;
+  }

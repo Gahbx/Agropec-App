@@ -1,0 +1,44 @@
+.mapContainer {
+  position: relative;
+  border-radius: 1rem;
+  overflow: hidden;
+  width: 50rem;
+  display: flex;
+  justify-content: center;
+  margin: auto;
+}
+              
+.mapImage {
+  object-fit: cover ;
+  object-position: center;
+}
+
+.controls {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  z-index: 1000;
+  display: flex;
+  gap: 8px;
+}
+
+.controlButton {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  border: none;
+  background-color: black;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 20px;
+  transition: all 0.2s ease;
+  
+  }
+
+.controlButton:hover {
+  background-color: #000000;
+  transform: scale(1.05);
+}

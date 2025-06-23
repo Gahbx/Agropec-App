@@ -5,7 +5,7 @@
     justify-content: center;
     width: 21.125rem;
     height: 3rem; 
-    background-color: var(--yellow-500);
+    background-color: var(--green-500);
     border-radius: 26px;
    gap: 3px;
    
@@ -26,7 +26,7 @@
     width: 2rem;
 }
 .active {
-    background: #f89602; 
+    background: var(--white); 
     border-radius: 2rem;
  
   }

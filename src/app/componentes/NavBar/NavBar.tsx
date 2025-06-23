@@ -27,14 +27,14 @@ export default function NavBar(){
                </Link> 
                
                <Link href="/Map" className={`${styles.link} ${pathname === '/Map' ? styles.active : ''}`}>
-                <img  src="Mapa.svg"
+                <img  src="MapaIcon.svg"
                   alt="Mapa Interativo"
                    className={styles.img} />
                </Link>   
             
-               <Link href="/Notification"  className={`${styles.link} ${pathname === '/Notification' ? styles.active : ''}`} >   
-               <img  src="Notificacao.svg"
-                 alt="Notificações"
+               <Link href="/Programacao"  className={`${styles.link} ${pathname === '/Programacao' ? styles.active : ''}`} >   
+               <img  src="Programacao.svg"
+                 alt="Programacao"
                   className={styles.img} />
                </Link> 
               

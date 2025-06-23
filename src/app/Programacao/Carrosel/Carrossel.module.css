@@ -1,0 +1,19 @@
+.carrossel {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+  }
+  .imagem {
+    width: 300px;
+    height: 180px;
+    object-fit: cover;
+    border-radius: 12px;
+  }
+.button {
+    background: none;
+    border: none;
+    font-size: 2rem;
+    cursor: pointer;
+    color: white;
+  }

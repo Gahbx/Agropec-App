@@ -11,8 +11,9 @@
     --gray-700: #29292e;
     --gray-800: #202024;
     --gray-900: #121214;
-    --green-500: #517859;
-    --green-700: #2F4032;
+    --green-500: #7EB647;
+    --green-700: #1E4844;
+    --green-900: #053A35;
     --yellow-500: #FFBB00;
 }
 :focus{
@@ -25,7 +26,7 @@
     box-sizing: border-box;
 }
 body{
-    background: var(--green-500);
+    background: var(--green-900);
     color: var(--white);
     -webkit-font-smoothing:antialiased;
 }

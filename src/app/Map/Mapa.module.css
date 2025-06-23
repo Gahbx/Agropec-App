@@ -1,0 +1,24 @@
+.container {
+  padding: 20px;
+  background-color: none;
+  height: 100vh;
+}
+
+.title {
+  display: flex;
+justify-content: center;
+  color: var(--white);
+  margin-bottom: 20px;
+  font-size: 2rem;
+
+}
+
+.mapWrapper {
+ 
+  position: relative;
+  border-radius: 1rem;
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  margin: auto;
+} 
