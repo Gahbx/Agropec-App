@@ -1,4 +1,5 @@
-h2{
-  margin: auto;
+.title{
+  font-size: 2rem;
+  display: flex;
   justify-content: center;
 }

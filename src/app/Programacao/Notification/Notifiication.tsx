@@ -22,6 +22,7 @@ const notificacoes: Notificacao[] = [
     categoria: "amarela",
   },
   {
+    
     hora: "14:42",
     titulo: "ACOMPANHE O INSTAGRAM DA AGROPEC @agropec_pgm",
     mensagem: "",
@@ -32,10 +33,11 @@ const notificacoes: Notificacao[] = [
 export default function Notificacoes() {
   return (
     <div>
-      <h3 className={styles.titulo}>Notificações</h3>
+      <strong className={styles.titulo}>Notificações</strong>
       <div className={styles.lista}>
         {notificacoes.map((n, i) => (
           <div key={i} className={`${styles.notificacao} ${styles[n.categoria]}`}>
+            
             <div className={styles.hora}>{n.hora}</div>
             <div>
               <div className={styles.tituloNot}>{n.titulo}</div>

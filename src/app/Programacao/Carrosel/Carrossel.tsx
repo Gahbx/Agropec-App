@@ -17,9 +17,21 @@ export default function Carrossel() {
 
   return (
     <div className={styles.carrossel}>
+          <div className={styles.slide}>
       <button className={styles.button} onClick={prev}>{"<"}</button>
       <img src={imagens[index].src} alt={imagens[index].alt} className={styles.imagem} />
       <button className={styles.button} onClick={next}>{">"}</button>
+          </div>
+      <div className={styles.dotsContainer}>
+        {imagens.map((_, i) => (
+          <button
+            key={i}
+            className={i === index ? styles.dotActive : styles.dot}
+            onClick={() => setIndex(i)}
+            aria-label={`Ir para imagem ${i + 1}`}
+          />
+        ))}
+      </div>
     </div>
   );
 }

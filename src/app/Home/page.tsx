@@ -24,40 +24,46 @@ export default function Home(){
                      
                      <div className={styles.NavContent}>      
                         <Link href="/Stands" className={`${styles.link} ${pathname === '/Stands' ? styles.active : ''}`}>
-                        <div className={styles.linha}>
-                                 <img src="Estandes.svg" alt="Imagem 1" />
-                                 <span>Estandes </span>
+                        <div className={styles.button}>
+                                 <div className={styles.linkImg}><img src="Estandes.svg" alt="Imagem 1" /></div>
+                                 <strong>Estandes </strong>
                               </div>
                            </Link> 
 
-                            <Link href="/PRogramacao"  className={`${styles.link} ${pathname === '/Programacao' ? styles.active : ''}`} >   
-                           <div className={styles.linha}>
-                                 <img src="Programacao.svg" alt="Imagem 3" />
-                                 <span>Notificações do evento</span>
+                            <Link href="/Programacao"  className={`${styles.link} ${pathname === '/Programacao' ? styles.active : ''}`} >   
+                           <div className={styles.button}>
+                                 <div className={styles.linkImg}>
+                                      <img src="Programacao.svg" alt="Imagem 3" />
+                                  </div>
+                                 <strong>Notificações do evento</strong>
                               </div>
                            </Link> 
 
                            <Link href="/Map" className={`${styles.link} ${pathname === '/Map' ? styles.active : ''}`}>
-                           <div className={styles.linha}>
-                                 <img src="MapaIcon.svg" alt="Imagem 2" />
-                                 <span>Mapa Interativo do evento</span>
+                           <div className={styles.button}>
+                                  <div className={styles.linkImg}>
+                                       <img src="MapaIcon.svg" alt="Imagem 2" />
+                                  </div>
+                                 <strong>Mapa Interativo do evento</strong>
                               </div>
-                           </Link>   
+                           </Link>
+                              
                         </div>
-               
+                        
             </div>
-            <div className={styles.meio}>
-              
-                  <img className={styles.meioImg} src='MeioContent1.svg'></img>
-                  <img className={styles.meioImg} src='MeioContent2.svg'></img>
-   
-            </div>
-
-              <div className={styles.low}>
-                  <img className={styles.LowContent} src="LowContent.svg"></img>
-      
-                </div>
-
+                        <img src="Linha.svg" alt="Linha divisora" className={styles.linha} />
+                              <div className={styles.meio}>
+                                 <img src="MeioContent1.svg" className={styles.logo}/>
+                                 <img src="MeioContent2.svg" className={styles.logo}/>
+                                 <strong className={styles.Meiocontent}>Esses reconhecimentos destacam a importância da Agropec, do Parque de Exposições
+                                 e do Sindicato como pilares que preservam nossa história,
+                                 fortalecem nossa economia e projetam Paragominas para o futuro.</strong>
+                              </div>
+                        <img src="Linha.svg" alt="Linha divisora" className={styles.linha} />
+                                       <div className={styles.low}>
+                                       <img src="/Pgmstroke.svg" className={styles.background} />
+                                       <img src="/LowContent.svg" className={styles.foreground} />
+                                       </div>
 
        </div>
     )

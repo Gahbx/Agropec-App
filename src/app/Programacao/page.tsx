@@ -6,7 +6,7 @@ import styles from "./Programacao.module.css";
 export default function Programacao() {
   return (
     <div>
-      <h2 >ATIVIDADES</h2>
+      <strong className={styles.title} >ATIVIDADES</strong>
       <Carrossel />
       <Notificacoes />
     </div>

@@ -8,7 +8,7 @@ export default function MapaPage() {
       <h1 className={styles.title}>Mapa Interativo</h1>
       <div className={styles.mapWrapper}>
         <InteractiveMap 
-          imageUrl="/MapaOfc.png" 
+          imageUrl="/Mapaofc.svg" 
           alt="Mapa da propriedade" 
         />
       </div>

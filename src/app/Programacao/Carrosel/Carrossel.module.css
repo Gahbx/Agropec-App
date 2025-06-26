@@ -1,8 +1,10 @@
 .carrossel {
+  margin-top: 2rem;
     display: flex;
     align-items: center;
     justify-content: center;
     gap: 1rem;
+    flex-direction: column;
   }
   .imagem {
     width: 300px;
@@ -17,3 +19,31 @@
     cursor: pointer;
     color: white;
   }
+  .slide{
+    display: flex;
+    gap:2rem; 
+  }
+.dotsContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 0.5rem;
+  margin-top: 1rem;
+}
+.dot {
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+  background: #ccc;
+  border: none;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+.dotActive {
+  width: 14px;
+  height: 14px;
+  border-radius: 50%;
+  background: var(--green-500);
+  border: 2px solid var(--green-500);
+  cursor: pointer;
+}
