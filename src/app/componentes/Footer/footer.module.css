@@ -4,17 +4,13 @@
     height: 8rem;
     color: var(--white);
     display: flex;
-    
-    
 }
 .left{
-    
     width: 70%;
     justify-content: center;
     margin: 0.85rem;
     display: flex;
     flex-direction: column;
-    
 }
 .titulo{
     margin-bottom: 1rem;

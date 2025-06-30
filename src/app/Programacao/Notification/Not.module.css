@@ -1,35 +1,40 @@
-  .titulo {
-    margin-top: 3rem;
-    
-    display: flex;
-    font-size:2rem ;
-    justify-content: center;
-  }
-  .lista {
-    margin-top: 2rem;
-    display: flex;
-    flex-direction: column;
-    gap: 1rem;
-  }
-  .notificacao {
-    margin: auto;
-    height: 5.6rem;
-    width: 90%;
-    gap: 1rem;
-    background: #1e3a34;
-    border-radius: 0.875rem;
-  }
-  .vermelha .hora {
-    color: #ff3b3b;
-    font-weight: bold;
-  }
-  .amarela .hora {
-    color: #ffd600;
-    font-weight: bold;
-  }
-  .branca .hora {
-    font-weight: bold;
-  }
-  .tituloNot {
-    font-size: 1rem;
-  }
+.titulo {
+  margin-top: 3rem;
+  display: flex;
+  font-size: 2rem;
+  justify-content: center;
+}
+
+.lista {
+  margin-top: 2rem;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.notificacao {
+  margin: auto;
+  height: 5.6rem;
+  width: 90%;
+  gap: 1rem;
+  background: #1e3a34;
+  border-radius: 0.875rem;
+}
+
+.vermelha .hora {
+  color: #ff3b3b;
+  font-weight: bold;
+}
+
+.amarela .hora {
+  color: #ffd600;
+  font-weight: bold;
+}
+
+.branca .hora {
+  font-weight: bold;
+}
+
+.tituloNot {
+  font-size: 1rem;
+}

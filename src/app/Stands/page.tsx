@@ -1,17 +1,20 @@
 "use client"
 import styles from './Estandes.module.css'
 import { useState } from 'react';
-type Stand = {
-    id: number;
-    logo: string;
-    name: string;
-    description: string;
-    background: string;
+import { useRouter } from 'next/navigation';
 
-}
+type Stand = {
+  id: number;
+  logo: string;
+  name: string;
+  description: string;
+  background: string;
+};
+
 export default function Estandes (){
- 
-    const [stands, setStands] = useState<Stand[]>([
+  const router = useRouter();
+
+  const [stands, setStands] = useState<Stand[]>([
     {
       id: 1,
       logo: "HydroLogo.svg",
@@ -56,6 +59,11 @@ export default function Estandes (){
               ? `url(${stand.background})`
               : "none",
             backgroundPosition: "center",
+          }}
+          onClick={() => {
+            if (stand.name.toLowerCase() === 'hydro') {
+              router.push('/Map?stand=hydro');
+            }
           }}
         >
           <div className={styles.standContent}>

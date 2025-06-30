@@ -1,5 +1,4 @@
 .navbar{
-    
     margin: auto;
     display: flex;
     justify-content: center;
@@ -8,26 +7,23 @@
     background-color: var(--green-500);
     border-radius: 26px;
     gap: 3px;
-   
-   
 }
+
 .link {
     display: flex;
     margin: auto;
     width: 5.5rem;
     height: 3rem;
-    
 }
 
 .img{
-    
-   margin: auto;
+    margin: auto;
     height: 2rem;
     width: 2rem;
 }
+
 .active {
     background: var(--white); 
     border-radius: 2rem;
- 
-  }
+}
 

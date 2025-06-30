@@ -3,3 +3,27 @@
   display: flex;
   justify-content: center;
 }
+
+/* Tablet */
+@media (min-width: 768px) {
+  .title {
+    font-size: 2.5rem;
+    margin-bottom: 3rem;
+  }
+}
+
+/* Desktop */
+@media (min-width: 1024px) {
+  .title {
+    font-size: 3rem;
+    margin-bottom: 4rem;
+  }
+}
+
+/* Large Desktop */
+@media (min-width: 1440px) {
+  .title {
+    font-size: 3.5rem;
+    margin-bottom: 5rem;
+  }
+}

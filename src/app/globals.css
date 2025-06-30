@@ -1,6 +1,5 @@
 @import "tailwindcss";
 
-
 :root{
     --white: #fff;
 
@@ -16,31 +15,50 @@
     --green-900: #053A35;
     --yellow-500: #FFBB00;
 }
+
+/* Breakpoints responsivos */
+:root {
+    --mobile: 480px;
+    --tablet: 768px;
+    --desktop: 1024px;
+    --large-desktop: 1440px;
+}
+
 :focus{
     outline: transparent;
     box-shadow: 0 0 0 2px var(--purple-300);
 }
+
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
+
 body{
     background: var(--green-900);
     color: var(--white);
     -webkit-font-smoothing:antialiased;
 }
+
 body, input , textarea, button {
     font-family: 'Montserrat', sans-serif ;
     font-weight: 400;
-  
 }
+
 .page-container {
     display: flex;
     flex-direction: column;
     min-height: 100vh;
-  }
-  
-  footer {
+}
+
+footer {
     margin-top: auto; 
-  }
+}
+
+.container {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 1rem;
+}
